@@ -27,7 +27,7 @@ function currentLine(katzDeliLine) {
   else {
 for (let i = 0; i < KatzDeliLine.length; i++) {
   Line = [];
-line.push(` `+[i+1]+`. `  + katzDeli[i])
+line.push(` `+[i+1]+`. `  + katzDeliLine[i])
    }
    return(`The line is currently:` + line);
 }
