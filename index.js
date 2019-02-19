@@ -25,10 +25,10 @@ function currentLine(katzDeliLine) {
     return `The line is currently empty.`;
   }
   else {
-  for (let i=0; i< katzDeliLine.length; i++) {
-    var katzDeli =[]
-    katzDeli.push(i+1 + ". " + katzDeliLine[i]);
-    return (`The line is currently: ` + katzDeli);
-  }
+for (let i = 0; i < katzDeli.length; i++) {
+  Line = [];
+line.push(` `+[i+1]+`. `  + katzDeli[i])
+   }
+   return(`The line is currently:` + line);
 }
 }
