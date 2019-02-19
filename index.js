@@ -23,7 +23,7 @@ function currentLine(katzDeliLine) {
   var katzDeli =[];
   let i = 0;
   while(i<katzDeliLine.length) {
-    katzDeli.push(" " + i+1 + ". " + katzDeliLine[i]);
+    katzDeli.push( i+1 + ". " + katzDeliLine[i]);
     i++;
   }
 if (katzDeliLine === 0) {
