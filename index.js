@@ -18,7 +18,12 @@ function nowServing(katzDeliLine) {
 }
 }
 
-function currentLine(katzDeli) {
-  for (var i = 0; i < katzDeli.length; i++);
-  console.log(i, katzDeli[i]);
+function curren(katzDeliLine) {
+  for (let i=0; i< katzDeliLine.length; i++);
+  if (katzDeliLine.length === 0) {
+    return `There is nobody waiting to be served!`;
+  }
+  else {
+  return `Currently serving ${katzDeliLine.shift()}.`;
+}
 }
