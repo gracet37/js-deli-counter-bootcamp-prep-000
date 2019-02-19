@@ -9,12 +9,13 @@ function takeANumber(katzDeliLine,name) {
 
 // Create a loop to run - chose for as business continues to operate and therefore requires the loop to keep running. 
 function nowServing(katzDeliLine) {
-  for (let i=0; i< katzDeliLine.length; i++);
+  for (let i=0; i< katzDeliLine.length; i++){
   if (katzDeliLine.length === 0) {
     return `There is nobody waiting to be served!`;
   }
   else {
   return `Currently serving ${katzDeliLine.shift()}.`;
+}
 }
 }
 
