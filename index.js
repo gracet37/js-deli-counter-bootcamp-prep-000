@@ -26,8 +26,8 @@ function currentLine(katzDeliLine) {
   else {
   for (let i=0; i< katzDeliLine.length; i++) {
     katzDeliLine[i] = i+1 + ". " + katzDeliLine[i];
-    katzDeliLine.shift
-
+    katzDeliLine.unshift("The line is currently: ");
+    return katzDeliLine[i];
   }
 }
 }
