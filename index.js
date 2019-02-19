@@ -20,5 +20,5 @@ function nowServing(katzDeliLine) {
 
 function currentLine(katzDeli) {
   for (var i = 0; i < katzDeli.length; i++);
-  console.log(i+1, ".", katzDeli[i])
+  console.log(i, katzDeli[i])
 }
