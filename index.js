@@ -30,3 +30,4 @@ function currentLine(katzDeliLine) {
   return katzDeliLine;
   }
 }
+}
