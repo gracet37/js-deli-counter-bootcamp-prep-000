@@ -20,6 +20,7 @@ function nowServing(katzDeliLine) {
 }
 
 function currentLine(katzDeliLine) {
+  
   var katzDeli =[];
   let i = 0;
   while(i<katzDeliLine.length) {
