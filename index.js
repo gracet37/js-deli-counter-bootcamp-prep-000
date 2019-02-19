@@ -26,7 +26,7 @@ function currentLine(katzDeliLine) {
   else {
     var katzDeli = [];
     katzDeliLine[i] = i+1+ ". " + katzDeliLine[i];
-  katzDeliLine.shift("The line is currently: ");
+  katzDeli.shift("The line is currently: ");
   return katzDeliLine;
   }
 }
